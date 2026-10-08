@@ -81,7 +81,6 @@ export const useItemStore = create<ItemState>()(
             ...state.inventory,
           ],
         })),
-
     }),
     {
       // Unique key name for the localStorage entry
